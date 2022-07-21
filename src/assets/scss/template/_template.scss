@@ -1,0 +1,162 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+// Body Styles
+
+.header {
+  background-color: #ee8973 !important;
+  background: #ee8973 !important;
+  .header-main-row {
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+
+    .columns {
+      &.columns:first-child {
+        padding-right: 0px;
+      }
+      &.columns:nth-child(2) {
+        padding-left: 0px;
+      }
+      vertical-align: middle;
+      #acrobat-icon {
+        width: 37px;
+      }
+      #adobe-heading {
+        width: 200px;
+      }
+    }
+  }
+}
+
+.content-area {
+  background-color: #ee8973 !important;
+  background: #ee8973 !important;
+  .row {
+    width: 500px;
+    margin: 0 auto;
+  }
+  .content-main-row {
+    .columns {
+      h1 {
+        font-size: 60px;
+        line-height: 66px;
+        font-weight: 600;
+      }
+      p {
+        padding-top: 20px;
+        font-size: 18px;
+        line-height: 26px;
+        padding-bottom: 40px;
+      }
+      .get-started {
+        color: white;
+        background-color: #1473e6;
+        font-weight: 600;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 20px;
+      }
+    }
+  }
+  .content-main-row-2 {
+    & > tbody > tr > th:nth-child(odd) {
+      padding-left: 60px;
+    }
+    & > tbody > tr > th:nth-child(even) {
+      padding-right: 60px;
+    }
+    width: 100%;
+
+    background-color: white;
+    background: white;
+    .columns {
+      vertical-align: middle;
+      h2 {
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 26px;
+      }
+      p {
+        font-size: 18px;
+        line-height: 26px;
+        margin-bottom: 0px;
+        color: #505050;
+      }
+
+      a {
+        font-size: 18px;
+      }
+      .get-started {
+        color: white;
+        background-color: #1473e6;
+        font-weight: 600;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 20px;
+      }
+      img {
+        width: 250px;
+        height: 225px;
+      }
+    }
+  }
+  .content-main-row-3 {
+    & > tbody > tr > th {
+      padding: 0px;
+      padding-bottom: 0px;
+      margin: 0px;
+    }
+    width: 100%;
+    background-color: #fa0f00;
+    background: #fa0f00;
+    padding: 0px;
+    margin: 0px;
+    .columns {
+      p {
+        color: white;
+        margin-bottom: 0px;
+        vertical-align: middle;
+        font-weight: 600;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 50px;
+      }
+    }
+  }
+}
+
+.footer {
+  background-color: #f5f5f5 !important;
+  background: #f5f5f5 !important;
+  .footer-main-row {
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+    .columns {
+      vertical-align: middle;
+      p {
+        color: #959595;
+        font-size: 11px;
+        line-height: 18px;
+      }
+      img {
+        width: 30px;
+      }
+      a {
+        .facebook {
+          width: 9px;
+          height: 17px;
+        }
+        .icons {
+          width: 17px;
+          height: 17px;
+        }
+      }
+    }
+  }
+}
